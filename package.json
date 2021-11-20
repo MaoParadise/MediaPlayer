@@ -1,15 +1,16 @@
 {
-  "name": "MediaPlayer",
+  "name": "platzi-media-player",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start" : "live-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
+  "license": "MIT",
+  "author": "Richard B. Kaufman López <richardbkaufman@gmail.com>",
   "keywords": [
-    "media"
+    "platzi"
   ],
-  "author": "",
-  "license": "ISC"
+  "scripts": {
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
