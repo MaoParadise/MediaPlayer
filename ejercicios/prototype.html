@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="">Goback</a>
+    <p><em>Abre la consola</em></p>
+
+    <script>
+
+        // const superman = {
+        //     name: 'Clark Kent',
+        // }
+
+        // superman.saludar = function(){
+        //     console.log(`Hola soy ${this.name}`);
+        // }
+
+        // superman.saludar();
+
+       
+
+
+        function Hero(name){
+            //  const hero = Object.create(Hero.prototype);
+            this.name = name;
+
+
+            //return this;
+        }
+
+        Hero.prototype.saludar = function(){
+            console.log(`New:  ${this.name}`);
+        }
+
+        const zelda = new Hero('Link');
+
+        zelda.saludar();
+        
+        console.log('Name :', zelda.name);
+
+        console.log('Saluda : ', zelda.saludar);
+
+        console.log('ToString' , zelda.toString);
+
+        console.log('Zelda.hasOwnProperty("saludar"): ', zelda.hasOwnProperty('saludar'));
+        
+        // const nuevoObjeto = Object.create(objeto);
+
+
+
+    </script>
+
+</body>
+</html>
