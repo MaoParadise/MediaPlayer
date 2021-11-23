@@ -1,3 +1,7 @@
 /node_modules
-/ignore
+
+#misc
+/compress
+/ignore/el-primer-plugin_424bdd8b-ea1c-42dd-ba0e-227808aee9c0.zip
+/ignore/promesas_8f1dca5a-8bd3-4881-9ae4-65e44c91bfa4.zip
 /assets/RickMorty.mp4
